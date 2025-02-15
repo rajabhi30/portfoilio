@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 28, 28 );
+}
+#nav{
+    background-color:  rgb(31, 28, 28 );
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid white; */
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    background-color: black;
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+#greeting{
+    background-color:  rgb(31, 28, 28 );
+    width: 55%;
+    height: auto;
+    
+    padding-left: 40px;
+    /* border: 1px solid white; */
+}
+#picture{
+    background-color: rgb(31, 28, 28 );
+    width: 45%;
+    height: auto;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+}
+
+#hello{
+    margin-left: 65px;
+    margin-top: 140px;
+    font-family: cursive;
+    font-size: 42px;
+    width: 90%;
+    height: 50%;
+    color: white;
+}
+
+
+
+#hello span{
+    color: #F25808;
+}
+
+#masala{
+    /* border-top: 1px solid white; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(31, 28, 28 );
+}
+
+ul li{
+    display: inline;
+}
+#navitems{
+    /* background-color: red; */
+    padding-top: 35px;
+    width: 50%;
+}
+
+ul li a{
+    margin-left: 46px;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s; 
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #F25808;
+    text-decoration: underline;
+    transform: scale(1.5px); 
+}
+
+#abt{
+    width: 50%;
+    height: 700px;
+    /* background-color: aqua; */
+}
+
+#skills{
+    width: 50%;
+    height: 700px;
+    /* background-color: yellow; */
+}
+
+.Divabt{
+    box-shadow: #F25808;
+    border-radius: 25px;
+    border: 2px solid #F25808;
+    margin-top: 15%;
+    margin-left: 20%;
+    width: 60%;
+    height: 600px;
+    /* background-color: red; */
+}
+
+.Divabt img{
+    padding-top: 12px;
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: cursive;
+    font-size: 40px;
+    color: white;
+}
+
+h2 span{
+    color: #F25808;
+} 
+
+h2 p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.Divabt table{
+    text-align: center;
+    /* background-color: aqua; */
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 24%;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    border-radius: 15px;
+}
+.Divabt table tr td{
+    height: 10px;
+    font-size: 35px;
+    padding: 5px;
+}
+.Divabt table td:hover{
+    color: black;
+    border: 1px solid #F25808;
+    border-radius: 15px;
+}
+
+#Project{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(31, 28, 28 );
+    
+}
+
+#work{
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 90%;
+    height: 500px;
+    border: 1px solid #F25808;
+    border-radius: 15px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.kaam{
+    border-radius: 15px;
+    height: 200px;
+    width: 250px;
+    border: 1px solid #F25808;
+}
+
+#pro{
+    padding: 10px;
+}
+
+#pro img{
+    width: 100px;
+    height: 100px;
+    margin-left: 65px;
+}
+
+#pro h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+#pro button{
+    margin-top: 8px;
+    margin-left: 70px;
+    background-color: rgb(31, 28, 28 );
+    border: 1px solid #F25808;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+
+#pro a{
+    
+    text-decoration: none;
+    color: #F25808;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+
+#break{
+    width: 100%;
+    height: 2px;
+    background-color: #F25808;
+}
+
+
+#details{
+    margin-top: 25px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(31, 28, 28 );
+}
+
+
+
+#details ul img{
+    width: 35px;
+    height: 35px;
+}
+
+
